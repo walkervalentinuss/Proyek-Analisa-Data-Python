@@ -4,7 +4,7 @@
 pipenv --python 3.11
 pipenv --venv | ForEach-Object { . $_\Scripts\activate }
 pipenv shell
-pipenv install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 exit
 
 ## Run Streamlit App:
