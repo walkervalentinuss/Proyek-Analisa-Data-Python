@@ -9,8 +9,8 @@ with st.sidebar:
     st.image("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.huffpost.com%2Fgen%2F1160899%2Fimages%2Fo-CITI-BIKE-facebook.jpg&f=1&nofb=1&ipt=282e630cd158137f871e10a736669be0280d3290fb92064ded477f56e23d7416&ipo=images")
     st.header("BIKE SHARING 2011 - 2012")
 
-day_df = pd.read_csv("day_df_cleaned.csv")
-hour_dataset = pd.read_csv("hour_df_cleaned.csv")
+day_df = pd.read_csv("../Data/day_df_cleaned.csv")
+hour_dataset = pd.read_csv("../Data/hour_df_cleaned.csv")
 
 st.header('Dashboard Project Bike Sharing :sparkles:')
 
